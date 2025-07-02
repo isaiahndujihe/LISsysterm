@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Edit Records</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Admin</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="home.html">Home</a>
+                <a class="nav-link" href="profile.html">Profile</a>
+                <span class="nav-link">Welcome, Admin</span>
+                <a class="nav-link" href="index.html">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Admin Dashboard</h1>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Databoard</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="admin-create-record.html">Add Record</a></li>
+                            <li><a href="admin-edit-records.html">Edit Record</a></li>
+                            <li><a href="admin-manage-bids.html">Bids</a></li>
+                            <li><a href="admin-users.html">Manage Users</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-9">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Welcome, Admin</h2>
+                        <h3 class="mt-4">Admin - Edit and Delete Records</h3>
+                        
+                        <div class="table-responsive mt-4">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Location</th>
+                                        <th>Size</th>
+                                        <th>Owner</th>
+                                        <th>Ownership Type</th>
+                                        <th>Zoning</th>
+                                        <th>Registered Date</th>
+                                        <th>Market Value</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Avenue Garden</td>
+                                        <td>Enugu state, Nigeria</td>
+                                        <td>500 acres</td>
+                                        <td>Big Mitch</td>
+                                        <td>communal</td>
+                                        <td>Residential</td>
+                                        <td>2024-08-22</td>
+                                        <td>100000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marvis Loosy</td>
+                                        <td>Enugu state, Nigeria.</td>
+                                        <td>800 acres</td>
+                                        <td>Big Mitch</td>
+                                        <td>Freehold</td>
+                                        <td>Residential</td>
+                                        <td>2024-08-22</td>
+                                        <td>700000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Udi Land Estate</td>
+                                        <td>Udi Town, Udi LGA, Enugu</td>
+                                        <td>50,000</td>
+                                        <td>John chaker</td>
+                                        <td>Freehold</td>
+                                        <td>residential</td>
+                                        <td>2022-01-15</td>
+                                        <td>65000000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abouhe Commercial plot</td>
+                                        <td>Abouhe Enugu south LGA</td>
+                                        <td>15,000</td>
+                                        <td>Enugu state government</td>
+                                        <td>Leasehold</td>
+                                        <td>commercial</td>
+                                        <td>2023-12-07</td>
+                                        <td>10000000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nushka Farm Land</td>
+                                        <td>Oblimo Nushka LGA, Enugu.</td>
+                                        <td>200000</td>
+                                        <td>Oblimo community</td>
+                                        <td>Freehold</td>
+                                        <td>agricultural</td>
+                                        <td>2020-05-10</td>
+                                        <td>55000000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ngwo Hills Estate</td>
+                                        <td>Ngwo, Enugu North LGA</td>
+                                        <td>60,000</td>
+                                        <td>Charles Novou</td>
+                                        <td>Freehold</td>
+                                        <td>residential</td>
+                                        <td>2023-09-19</td>
+                                        <td>95000000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ogai New Layout Plot</td>
+                                        <td>Ogai New Layout Plot, Enugu.</td>
+                                        <td>12,500</td>
+                                        <td>Enugu state Gov.</td>
+                                        <td>Leasehold</td>
+                                        <td>commercial</td>
+                                        <td>2024-02-11</td>
+                                        <td>130000000</td>
+                                        <td><button class="btn btn-sm btn-primary">Edit</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
